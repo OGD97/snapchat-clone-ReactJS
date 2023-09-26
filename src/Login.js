@@ -25,9 +25,9 @@ function Login() {
     return (
         <div className="login">
             <div className="login_container">
-                <img src="http://presskit.wubyu.com/oh_snap/images/header.png" alt=""/>
-                <Button variant="outline"  onClick={signIn}>
-                    <button className="login_button"> Sign In</button>
+                <img src="https://pngimg.com/uploads/snapchat/snapchat_PNG1.png" className="logo" alt=""/>
+                <Button variant="text"  onClick={signIn}>
+                    <button className="login_button"> SIGN IN</button>
                 </Button>
             </div>
         </div>

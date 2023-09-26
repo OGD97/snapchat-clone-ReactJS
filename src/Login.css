@@ -1,7 +1,7 @@
 .login {
   display: grid;
   place-items: center;
-  height: 100vh;
+  height: auto;
   width: 100%;
 }
 
@@ -10,17 +10,39 @@
   flex-direction: column;
   background-color: yellow;
   border: 3px double black;
-  border-radius: 30px;
+  border-radius: 10px;
 }
 
-.login_container > img {
+.logo{
+  width: 30%;
+  height: auto;
+  
+  align-self: center;
+}
+
+/* .login_container > img {
   height: auto;
   width: 500px;
-}
+} */
+
 
 .login_button {
   margin: 10px;
   padding: 15px;
   font-size: 16px;
   font-weight: bold;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  box-shadow: 0px 0px 5px black;
+  transition: 0.5s;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login_button:hover
+{
+  background-color: red;
+  font-size: 20px;
+/* opacity: 0.8; */
 }
